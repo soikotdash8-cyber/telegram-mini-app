@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>Sarkar Official - Premium Earning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="user-profile-wrapper">
+            <div class="profile-card">
+                <img src="default-avatar.png" id="admin-controlled-pic" alt="User">
+                <h2 id="admin-controlled-name">Loading...</h2>
+                <span class="user-id-tag">ID: <span id="user-uid">499457</span></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="dashboard">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <p>দেখা বিজ্ঞাপন</p>
+                <h3 id="ad-count">12</h3>
+            </div>
+            <div class="stat-box">
+                <p>আয়কৃত টাকা</p>
+                <h3 id="earnings">24.00</h3>
+            </div>
+        </div>
+    </main>
+
+    <nav class="bottom-nav">
+        <button class="nav-btn active" data-tab="home">হোম</button>
+        <button class="nav-btn" data-tab="earn">আর্ন</button>
+        <button class="nav-btn" data-tab="withdraw">উত্তোলন</button>
+        <button class="nav-btn" data-tab="notice">নোটিশ</button>
+    </nav>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+<section id="notice-board" class="notice-section">
+        <div class="notice-card">
+            <h4 id="notice-title">সিস্টেম আপডেট</h4>
+            <p id="notice-content">স্বয়ংক্রিয় বিজ্ঞাপন সিস্টেম চালু হয়েছে।</p>
+        </div>
+    </section>
+
+    <div id="status-toast" class="toast-hidden">
+        সিস্টেম প্রস্তুত!
+    </div>
+
+    <footer class="app-footer">
+        <p>&copy; ২০২৩ সৈকত সরকার অফিশিয়াল। সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+</body>
+</html>

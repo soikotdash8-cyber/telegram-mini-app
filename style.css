@@ -1,0 +1,91 @@
+/* ১. গ্লোবাল ডার্ক মোড সেটিংস */
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* ২. প্রোফাইল কার্ড স্টাইল */
+.profile-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    margin-bottom: 10px;
+}
+
+/* ৩. স্ট্যাটাস গ্রিড (ইনকাম বক্স) */
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+}
+
+.stat-box {
+    background: #334155;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* ৪. বটম নেভিগেশন (একদম প্রফেশনাল লুক) */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #0f172a;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 1px solid #334155;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.nav-btn.active {
+    color: #38bdf8;
+    font-weight: bold;
+}
+/* ৫. নোটিশবোর্ড কার্ড স্টাইল */
+.notice-section {
+    padding: 20px;
+}
+
+.notice-card {
+    background: rgba(56, 189, 248, 0.1);
+    border-left: 4px solid #38bdf8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* ৬. স্ট্যাটাস পপ-আপ (টোস্ট) স্টাইল */
+.toast-hidden {
+    display: none;
+}
+
+.app-footer {
+    text-align: center;
+    font-size: 12px;
+    color: #475569;
+    padding: 20px;
+    margin-bottom: 60px; /* যাতে নেভিগেশন বারের নিচে ঢাকা না পড়ে */
+}
